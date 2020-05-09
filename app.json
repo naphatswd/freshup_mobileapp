@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "Freshup",
+    "sdkVersion": "36.0.0",
+    "icon": "./assets/images/icon.png",
+    "privacy": "unlisted",
+    "slug": "freshup",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "notification": {
+      "icon": "./assets/images/icon.png"
+    },
+    "loading": {
+      "hideExponentText": true,
+      "backgroundImage": "./assets/images/splashscreen.png"
+    },
+    "splash": {
+      "image": "./assets/images/splashscreen.png",
+      "resizeMode": "contain"
+    },
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "packagerOpts": {
+      "assetExts": [
+        "ttf"
+      ]
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_ERROR_RECOVERY",
+      "fallbackToCacheTimeout": 10000
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#024d28"
+    },
+    "ios": {
+      "userInterfaceStyle": "automatic",
+      "bundleIdentifier": "com.cpfthailand.pakchongmodel",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Freshup would like to access your photo gallery for your profile photo upload. Your photos wont be shared without your permission.",
+        "NSLocationWhenInUseUsageDescription": "Freshup would like to use your current location to display it on the app, also for directions and estimation of your travel times. It is secure and private."
+      },
+      "config": {
+        "googleMapsApiKey": "API_KEY"
+      }
+    },
+    "android": {
+      "package": "com.cpfthailand.pakchongmodel",
+      "versionCode": 15,
+      "config": {
+        "googleMaps": {
+          "apiKey": "API_KEY"
+        }
+      }
+    },
+    "version": "2.0.0",
+    "description": ""
+  },
+  "url": {
+    "prefix": "https://url.com",
+    "authen": "/api/v1"
+  }
+}
